@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Amadeus Cafe</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Amadeus Cafe</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+  <section>
+    <h1>Contact & Location</h1>
+
+    <p><strong>Address:</strong> 170 Princess St, Kingston, ON</p>
+    <p><strong>Phone:</strong> (613) 546-7468</p>
+
+    <h2>Hours</h2>
+    <ul>
+      <li>Tuesday – Thursday: 4:00 PM – 9:00 PM</li>
+      <li>Friday: 4:00 PM – 9:00 PM</li>
+      <li>Saturday: 12:00 PM – 9:00 PM</li>
+      <li>Sunday & Monday: Closed</li>
+    </ul>
+  </section>
+</main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> Amadeus Cafe</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

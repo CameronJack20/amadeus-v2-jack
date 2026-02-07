@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amadeus Cafe | Kingston</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Amadeus Cafe</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="hero">
+      <h1>Authentic German & European Cuisine</h1>
+      <p>Cozy dining in downtown Kingston — discover our hidden Biergarten and classic comfort dishes.</p>
+      <div class="btns">
+        <a href="menu.html">View Menu</a>
+        <a href="contact.html">Location & Hours</a>
+      </div>
+    </div>
+
+    <section>
+      <div class="card">
+        <h2>Visit Us</h2>
+        <p><strong>Address:</strong> 170 Princess St, Kingston, ON</p>
+        <p><strong>Phone:</strong> (613) 546-7468</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> Amadeus Cafe</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
